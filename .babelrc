@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "@babel/preset-env",
+        ["@babel/preset-react", {
+            // Imports react automatically on every js or jsx file (Specific extensions according to webpack config)
+            "runtime": "automatic"
+        }]
+    ]
+}
